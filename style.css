@@ -1,0 +1,311 @@
+/* Font Página  */
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Header - Footer */
+
+header{
+    background-color: #ebaf1ce0;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+} 
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+    top: 10%;
+    right: 60%;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+footer{
+    font-size: 20px;
+    background: url(Images/bg.jpg);
+    border: 30px;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+.copyright{
+    font-size: 13px;
+    margin: 20px;
+}
+
+/* CSS Inicio */
+
+.banner{
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.maininicio{
+    background-color: black;
+}
+
+.informacion{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em 0;
+    color: #ebaf1ce0 ;
+}
+
+.informacion:before{
+    content: "-";
+}
+
+.informacion:after{
+    content: "-";
+}
+
+.principal, .diferenciales, .mapa{
+    background-color: #ebaf1ce0;
+    border-radius: 15px;
+    padding: 2em 0;
+    font-weight: bold;
+}
+
+.principal p, .mapa p{
+    margin: 1em 1em 1em;
+    text-align: center;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.imgutensilios{
+    width: 10%;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgutensilios:hover{
+    opacity: 90%;
+    transition: 600ms;
+    width: 11%;
+    box-shadow: 10px 10px 20px black;
+}
+
+iframe{
+    border-radius: 15px;
+    display: block;
+    margin: 40px auto;
+    box-shadow: 10px 10px 20px black;
+}
+
+.contenidodiferenciales{
+    width: 640px;
+    margin: auto;
+}
+
+.listadiferenciales{
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:before{
+    content:"\2700";
+}
+
+.imgdiferenciales{
+    width: 20%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.imgdiferenciales:hover{
+    opacity: 90%;
+    transition: 600ms;
+    box-shadow: 10px 10px 20px black;
+}
+
+/* CSS Producto */
+
+.mainproducto{
+    background-color: black;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background-color: #ebaf1ce0;
+    border-radius: 15px;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+
+.productos li:hover{
+    border-color: white;
+    box-shadow: 3px 3px 10px #ebaf1ce0, -3px -3px 10px #ebaf1ce0 ;
+}
+
+.productos li:active{
+    border-color: crimson;
+}
+
+.productos h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.productos li:hover h2{
+    font-size: 30px;
+}
+
+#cabello{
+    border-radius: 15px;
+}
+
+#barba{
+    border-radius: 15px;
+}
+
+#cabellobarba{
+    border-radius: 15px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* CSS Contacto */
+
+.maincontacto{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+form{
+    margin: 20px 0;
+}
+
+form label, .pregunta, fieldset{
+    display: block;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 25px;
+    width: 40%;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.checkbox{
+    margin: 20px auto;
+}
+
+.botonenviar{
+    background-color: #ebaf1ce0 ;
+    font-weight: bold;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 15px;
+    font-size: 15px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.botonenviar:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+}
+
+table{
+    margin: 40px auto;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+thead{
+    background-color: black ;
+    font-weight: bold;
+    color: white;
+}
+
+td, th{
+    border: solid #ebaf1ce0 ;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+tbody{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .contenidodiferenciales, iframe, .productos, .productos li{
+        width: auto;
+    }
+    .listadiferenciales, .imgdiferenciales{
+        width: 100%;
+    }
+}
